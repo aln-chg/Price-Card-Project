@@ -1,63 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Choose course</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <div class="container">
-        <div class="card">
-            <p style="font-size: 10px;" class="text">Your current plan</p>
-            <h5 style="font-size: 20px;" class="text">starter</h5>
+      <div class="card">
+        <p style="font-size: 10px" class="text">Your current plan</p>
+        <h5 style="font-size: 20px" class="text">starter</h5>
+      </div>
+      <div class="choose">
+        <h2>Choose a plan</h2>
+      </div>
+      <div class="price-plan">
+        <div class="plan1">
+          <h2>Starter</h2>
+          <h1 class="price">Free</h1>
+          <ul style="background-color: transparent" class="list">
+            <li style="background-color: transparent" class="feature">
+              For one person
+            </li>
+            <li style="background-color: transparent" class="feature">
+              5gb cloud storage
+            </li>
+            <li style="background-color: transparent" class="feature">
+              15gb mailbox storage
+            </li>
+            <li style="background-color: transparent" class="feature">
+              Works Windows, iOS, <br />macOS, and android
+            </li>
+            <li style="background-color: transparent" class="feature">
+              Backup on all device
+            </li>
+          </ul>
+          <a href="./billing.html" style="background-color: transparent;" target="_blank"><button type="button" class="choose-plan">Choose plan</button></a>
         </div>
-        <div class="choose">
-            <h2>Choose a plan</h2>
+        <div class="plan2">
+          <h2>Pro</h2>
+          <h1 class="price">$20/month</h1>
+          <ul style="background-color: transparent" class="list">
+            <li
+              style="background-color: transparent; font-size: smaller"
+              class="feature"
+            >
+              20GB cloud storage.
+            </li>
+            <li
+              style="background-color: transparent; font-size: smaller"
+              class="feature"
+            >
+              50GB mailbox storage.
+            </li>
+            <li
+              style="background-color: transparent; font-size: smaller"
+              class="feature"
+            >
+              All free features.
+            </li>
+            <li
+              style="background-color: transparent; font-size: smaller"
+              class="feature"
+            >
+              Advanced backup across all devices, including real-time
+              synchronization.
+            </li>
+            <li
+              style="background-color: transparent; font-size: smaller"
+              class="feature"
+            >
+              Enhanced encryption and security <br />protocols.
+            </li>
+            <li
+              style="background-color: transparent; font-size: smaller"
+              class="feature"
+            >
+              Access to priority customer support.
+            </li>
+          </ul>
+          <a href="./billing.html" style="background-color: transparent;" target="_blank"><button type="button" class="choose-plan2">Choose plan</button></a>
         </div>
-        <div class="price-plan">
-            <div class="plan1">
-                <h2>Starter</h2>
-                <h1 class="price">Free</h1>
-                <ul style="background-color: transparent;" class="list">
-                    <li style="background-color: transparent;" class="feature">For one person</li>
-                    <li style="background-color: transparent;" class="feature">5gb cloud storage</li>
-                    <li style="background-color: transparent;" class="feature">15gb mailbox storage</li>
-                    <li style="background-color: transparent;" class="feature">Works Windows, iOS, <br>macOS, and android</li>
-                    <li style="background-color: transparent;" class="feature">Backup on all device</li>
-                </ul>
-                <button type="button" class="choose-plan">Choose plan</button>
-            </div>
-            <div class="plan2">
-                <h2>Pro</h2>
-                <h1 class="price">$20/month</h1>
-                <ul style="background-color: transparent;" class="list">
-                    <li style="background-color: transparent; font-size: smaller;" class="feature" >20GB cloud storage.</li>
-                    <li style="background-color: transparent; font-size: smaller" class="feature" >50GB mailbox storage.</li>
-                    <li style="background-color: transparent; font-size: smaller" class="feature">All free features.</li>
-                    <li style="background-color: transparent; font-size: smaller" class="feature">Advanced backup across all devices, including real-time synchronization.</li>
-                    <li style="background-color: transparent; font-size: smaller" class="feature">Enhanced encryption and security <br>protocols.</li>
-                    <li style="background-color: transparent; font-size: smaller" class="feature">Access to priority customer support.</li>
-                </ul>
-                <button type="button" class="choose-plan2">Choose plan</button>
-            </div>
-            <div class="plan3">
-                <h2>Enterprise</h2>
-                <h1 class="price">Contact Us</h1>
-                <ul style="background-color: transparent;" class="list">
-                    <li style="background-color: transparent; font-size: smaller;" class="feature" >100+GB cloud storage.</li>
-                    <li style="background-color: transparent; font-size: smaller" class="feature" >Unlimited mailbox storage.</li>
-                    <li style="background-color: transparent; font-size: smaller" class="feature">All pro features.</li>
-                    <li style="background-color: transparent; font-size: smaller" class="feature">Advanced backup across all devices, including real-time synchronization.</li>
-                    <li style="background-color: transparent; font-size: smaller" class="feature">Enhanced encryption and security <br>protocols.</li>
-                    <li style="background-color: transparent; font-size: smaller" class="feature">24/7 customer support.</li>
-                </ul>
-                <button type="button" class="choose-plan3">Choose plan</button>
-            </div>
+        <div class="plan3">
+          <h2>Enterprise</h2>
+          <h1 class="price">Contact Us</h1>
+          <ul style="background-color: transparent" class="list">
+            <li
+              style="background-color: transparent; font-size: smaller"
+              class="feature"
+            >
+              100+GB cloud storage.
+            </li>
+            <li
+              style="background-color: transparent; font-size: smaller"
+              class="feature"
+            >
+              Unlimited mailbox storage.
+            </li>
+            <li
+              style="background-color: transparent; font-size: smaller"
+              class="feature"
+            >
+              All pro features.
+            </li>
+            <li
+              style="background-color: transparent; font-size: smaller"
+              class="feature"
+            >
+              Advanced backup across all devices, including real-time
+              synchronization.
+            </li>
+            <li
+              style="background-color: transparent; font-size: smaller"
+              class="feature"
+            >
+              Enhanced encryption and security <br />protocols.
+            </li>
+            <li
+              style="background-color: transparent; font-size: smaller"
+              class="feature"
+            >
+              24/7 customer support.
+            </li>
+          </ul>
+          <a href="./billing.html" style="background-color: transparent;" target="_blank"><button type="button" class="choose-plan3">Choose plan</button></a>
         </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
